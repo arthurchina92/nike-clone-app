@@ -2,9 +2,7 @@ import { View, Text, StyleSheet, Image } from "react-native";
 import { Feather } from "@expo/vector-icons";
 
 const CartList = ({ cartItem }) => {
-  const increaseQuantity = () => {
-    cartItem.quantity + 1;
-  };
+  const increaseQuantity = () => {};
 
   const decreaseQuantity = () => {};
 

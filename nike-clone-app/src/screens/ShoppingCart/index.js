@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     padding: 10,
     borderColor: "gray",
     borderTopWidth: 1,
-    marginBottom: 120,
+    marginBottom: 12,
   },
   row: {
     flexDirection: "row",
