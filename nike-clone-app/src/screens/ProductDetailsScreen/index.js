@@ -8,6 +8,7 @@ import {
   useWindowDimensions,
   ScrollView,
   Pressable,
+  Alert,
 } from "react-native";
 import React from "react";
 import products from "../../data/products";
@@ -22,6 +23,7 @@ const ProductDetailsScreen = () => {
   const { width } = useWindowDimensions();
   const addToCart = () => {
     dispatch(cartSlice.actions.addCartItem({ product }));
+    Alert.alert("Item added to cart");
   };
   return (
     <View>

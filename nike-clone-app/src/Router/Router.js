@@ -2,12 +2,12 @@ import * as React from "react";
 import { View, Text, Pressable } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import ProductScreen from "../ProductScreen";
-import ProductDetailsScreen from "../ProductDetailsScreen";
-import ShoppingCart from "../ShoppingCart";
+import ProductScreen from "../screens/ProductScreen";
+import ProductDetailsScreen from "../screens/ProductDetailsScreen";
+import ShoppingCart from "../screens/ShoppingCart";
 import { FontAwesome5 } from "@expo/vector-icons";
 import { useSelector } from "react-redux";
-import { selectNumberOfItems } from "../../store/cartSlice";
+import { selectNumberOfItems } from "../store/cartSlice";
 
 const Stack = createNativeStackNavigator();
 

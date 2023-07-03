@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import Router from "./src/screens/Router/Router";
+import Router from "./src/Router/Router";
 import { Provider } from "react-redux";
 import { store } from "./src/store";
 
