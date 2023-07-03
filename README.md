@@ -44,3 +44,14 @@ Contributions to this project are welcome! If you encounter any issues or have s
 
 - This project is licensed under the MIT License.
 - Feel free to reach out if you have any further questions or need assistance with the Nike App clone developed with Expo. Happy coding!
+
+
+## Screenshots
+### Product Screen
+|![Product Screen](nike-clone-app/img/Product_Screen.png)|
+### Product Details Screen
+|![Product Details](nike-clone-app/img/Product_Details.png)|
+### Shopping Cart Screen
+|![ShoppingCart Screen](nike-clone-app/img/Shopping_Cart.png)|
+
+
